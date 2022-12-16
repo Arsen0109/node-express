@@ -13,6 +13,7 @@ var promoRouter = require('./routes/promoRouter')
 const mongoose = require('mongoose')
 
 const Dishes = require('./models/dishes');
+const Promos = require('./models/promos')
 
 const url = 'mongodb://localhost:27017/nodeExpress'
 const connect = mongoose.connect(url)
